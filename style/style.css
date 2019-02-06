@@ -1,0 +1,139 @@
+body {
+  background-color: #444444; }
+
+table {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: auto;
+  width: 800px;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25); }
+
+thead {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #222222;
+  letter-spacing: 0.66px;
+  text-align: center;
+  background-color: #dddddd; }
+
+th, td {
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 0px 1px 0 0; }
+
+td {
+  padding: 16px;
+  color: #888888; }
+
+th {
+  padding: 18px; }
+
+tr:nth-child(even) {
+  background-color: #eeeeee; }
+
+#table-regular, #table-bold {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #888888;
+  letter-spacing: 0.75px;
+  text-align: center;
+  min-width: 80px; }
+
+#table-bold {
+  font-weight: bold;
+  min-width: 20px; }
+
+#head-container {
+  position: relative;
+  padding: 50px 0 0 0; }
+
+#logo-container {
+  color: white;
+  background: url("../icons/img_89348.png") no-repeat;
+  height: 65px;
+  width: 80px;
+  object-fit: cover;
+  background-size: 80px 60px;
+  margin: auto; }
+
+#title-container {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: -0.89px;
+  text-align: center;
+  padding: 0 0 30px 0; }
+
+#myTable_paginate {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0.75px;
+  text-align: center;
+  cursor: pointer;
+  padding: 40px 0 0 0;
+  margin: auto;
+  bottom: 0; }
+
+#myTable_paginate span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #333333; }
+
+.current {
+  color: #FFFFFF; }
+
+.paginate_button {
+  padding: 0 10px 0 10px;
+  cursor: pointer; }
+
+#company-container {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  height: 22px;
+  width: 75px;
+  margin: 50px auto; }
+
+#shadow-container {
+  height: 596px;
+  max-width: 652px;
+  background: url("../icons/circle.png") no-repeat;
+  background-size: 652px 596px;
+  object-fit: cover;
+  -webkit-filter: blur(150px);
+  -moz-filter: blur(150px);
+  -ms-filter: blur(150px);
+  -o-filter: blur(150px);
+  filter: blur(150px);
+  z-index: -1000;
+  opacity: 0.5;
+  margin: auto;
+  position: absolute;
+  top: 112px;
+  left: 0;
+  right: 0; }
+
+@media only screen and (max-width: 800px) {
+  table {
+    width: 100%; }
+
+  #head-container {
+    padding: 40px 0 0 0; }
+
+  #myTable_paginate {
+    padding: 20px 0 0 0; }
+
+  #company-container {
+    margin: 30px auto; } }
+
+/*# sourceMappingURL=style.css.map */

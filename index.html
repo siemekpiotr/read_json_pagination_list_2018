@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Pracowników</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.16/sorting/datetime-moment.js"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style/responsive.dataTables.css">
+    <link rel="stylesheet" href="style/sorting.dataTables.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+<div id="head-container">
+    <div id="logo-container"></div>
+    <div id="title-container">Lista Pracowników</div>
+</div>
+<table id="myTable" class="display responsive nowrap">
+    <thead>
+    <tr>
+        <th>iD</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Birth date</th>
+        <th>Company</th>
+        <th>Note</th>
+    </tr>
+    </thead>
+</table>
+<div id="company-container">XMind®</div>
+<div id="shadow-container"></div>
+</body>
