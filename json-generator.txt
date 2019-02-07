@@ -1,0 +1,11 @@
+[
+  '{{repeat(30)}}',
+  {
+    id: '{{index()}}',
+    firstName: '{{firstName()}} ',
+    lastName: '{{surname()}}',
+    dateOfBirth: '{{date(new Date(1914, 0, 1), new Date(2000, 0 , 1), "dd.MM.YYYY hh:mm")}}',
+    company: '{{random("Xmind", "YBody", "ZRoo")}}',
+    note: '{{integer(1, 100)}}',
+  }
+]
